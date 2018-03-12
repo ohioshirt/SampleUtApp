@@ -26,6 +26,14 @@ class SampleUtAppTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func test_always_true() {
+        assert(true, "test failed in true")
+    }
+    
+    func test_always_false() {
+        assert(false, "test failed in false")
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
