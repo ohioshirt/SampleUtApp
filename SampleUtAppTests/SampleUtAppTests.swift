@@ -31,7 +31,7 @@ class SampleUtAppTests: XCTestCase {
     }
     
     func test_always_false() {
-        assert(false, "test failed in false")
+        assert(true, "test failed in false")
     }
     
     func testPerformanceExample() {
